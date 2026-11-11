@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=DM+Serif+Display:ital@0;1&family=Gowun+Dodum&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+
+.nunito-bold {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nunito-exbold {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+.rammetto-one-regular {
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Boldonse Regular */
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Boldonse Bold */
+.boldonse-bold {
+  font-family: "Boldonse", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Boldonse Italic */
+.boldonse-italic {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Boldonse Bold Italic */
+.boldonse-bold-italic {
+  font-family: "Boldonse", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/*Gowun-dodum*/
+.gowun-dodum-regular {
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* DM Serif Display Regular */
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* DM Serif Display Italic */
+.dm-serif-display-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Open Sans Light */
+.open-sans-light {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Open Sans Regular */
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Open Sans SemiBold */
+.open-sans-semibold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Open Sans Bold */
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Open Sans ExtraBold */
+.open-sans-extrabold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Open Sans Italic */
+.open-sans-italic {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Open Sans Bold Italic */
+.open-sans-bold-italic {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.editorial-shape {
+  float: left;
+  shape-outside: inset(0);
+  margin-right: 16px;
+}
+
+/* Remove arrows in Chrome, Safari, Edge */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* Remove arrows in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
